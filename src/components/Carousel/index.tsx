@@ -1,11 +1,10 @@
 import React from 'react'
 import { Container } from './styles';
-import { Carousel } from '../../components/Carousel';
 
-export const Home = () => {
+export const Carousel = () => {
     return (
         <Container>
-            <Carousel/>
+            
         </Container>
     );
 }

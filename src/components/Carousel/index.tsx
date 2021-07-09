@@ -8,8 +8,8 @@ import Img3 from '../../assets/img3.jpg'
 
 export const CarouselHome = () => {
     return (
-        <>
-            <Carousel>
+        <Container>
+            <Carousel style={{width: '100%'}}>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
@@ -17,7 +17,7 @@ export const CarouselHome = () => {
                         alt="First slide"
                     />
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
+                        <h3>FBatatal</h3>
                         <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -44,7 +44,7 @@ export const CarouselHome = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
-        </>
+        </Container>
     );
     
 }

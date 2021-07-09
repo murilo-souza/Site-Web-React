@@ -4,7 +4,7 @@ import {FaBars} from 'react-icons/fa';
 
 export const Nav = styled.nav`
     background: #00171F;
-    height: 90px;
+    height: 80px;
     display: flex;
     padding: 0.5rem calc((100vw-1000px)/2);
     z-index: 10;
@@ -31,10 +31,17 @@ export const NavLink = styled(Link)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    
+    &:hover
+    { 
+        text-decoration:none;
+        color: #739495
+    } 
 
     &.active{
         color: #739495
-    }
+    };
+    
 `;
 
 export const Bars = styled(FaBars)`

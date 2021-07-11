@@ -1,18 +1,29 @@
-import React from 'react';
-import NavBar from './components/Navbar';
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import {Home} from './Pages/Home';
-import {Sobre} from './Pages/Sobre';
+import React, {ReactNode} from 'react';
+import logo from './logo.svg';
+import './App.css';
+
+interface props {
+  children: ReactNode,
+}
 
 function App() {
   return (
-    <Router>
-      <NavBar/>
-      <Switch>
-        <Route path='/Home' exact component={Home} />
-        <Route path='/Sobre' component={Sobre} />
-      </Switch>
-    </Router>
+    <div className="App">
+      <header className="App-header">
+        <img src={logo} className="App-logo" alt="logo" />
+        <p>
+          Edit <code>src/App.tsx</code> and save to reload.
+        </p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
+    </div>
   );
 }
 

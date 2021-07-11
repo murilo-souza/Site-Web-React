@@ -1,6 +1,6 @@
 import React from 'react';
+import {Card} from 'react-bootstrap'
 
-import { Card, Content, Title } from './styles';
 
 interface Props{
     title: string,
@@ -10,9 +10,11 @@ interface Props{
 
 export function CardComponent({title, content}: Props){
   return (
-    <Card>
-        <Title>{title}</Title>
-        <Content>{content}</Content>
+    <Card style={{width: '20rem'}}>
+      <Card.Body>
+        <Card.Title>{title}</Card.Title>
+        <Card.Text>{content}</Card.Text>
+      </Card.Body>
     </Card>
   );
 }

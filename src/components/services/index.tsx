@@ -9,7 +9,7 @@ export function Services(){
         <h1>Serviços</h1>
         <CardComponent
           title="Trabalista"
-          content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend sem vel dui cursus tincidunt. Pellentesque quis cursus ligula, sit amet finibus nulla. Curabitur ornare felis mi, finibus tempus sapien rhoncus cursus."
+          content="orem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sodales nunc sit amet metus finibus, sit amet aliquam tellus fermentum. Etiam purus urna, ullamcorper consectetur lacus porta, blandit hendrerit lacus."
         />
     </Container>
     

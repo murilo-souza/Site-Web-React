@@ -1,6 +1,7 @@
 import React ,{useState} from 'react';
 import {BiMenu, BiX} from 'react-icons/bi'
-import { NavbarItems, NavbarLogo, NavbarGroup, NavbarLink, IconMenu} from './styles';
+import { NavbarItems, NavbarLogo, NavbarLink, IconMenu, NavbarGroup} from './styles';
+import './nav.css';
 
 export function Navbar(){
     const [clicked, setClicked] = useState(false);
@@ -21,13 +22,13 @@ export function Navbar(){
                     
                 }
             </IconMenu>
-            
-                <NavbarGroup>
-                    <ul><NavbarLink>Home</NavbarLink></ul>
-                    <ul><NavbarLink>Serviços</NavbarLink></ul>
-                    <ul><NavbarLink>Sobre Nós</NavbarLink></ul>
-                    <ul><NavbarLink>Contato</NavbarLink></ul>
-                </NavbarGroup>
+                
+                <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+                        <ul><NavbarLink>Home</NavbarLink></ul>
+                        <ul><NavbarLink>Serviços</NavbarLink></ul>
+                        <ul><NavbarLink>Sobre Nós</NavbarLink></ul>
+                        <ul><NavbarLink>Contato</NavbarLink></ul>
+                </ul>
             
         </NavbarItems>
     );

@@ -42,40 +42,40 @@ export const IconMenu = styled.div`
 `;
 
 export const NavbarMobile = styled.div`
-   
-`;
+   @media screen and (max-width: 960px){
+       .navbar{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            height: 500px;
+            position: absolute;
+            top: 80px;
+            left: -100%;
+            opacity: 1;
+            transition: all 0.5s ease;
+       }
 
-export const NavbarGroup = styled.ul`
-    display: grid;
-    grid-template-columns: repeat(5, auto);
-    grid-gap: 10px;
-    list-style: none;
-    text-align: center;
-    width: 70vw;
-    justify-content: end;
-    margin-right: 2rem;
-
-
-    @media screen and (max-width: 960px){
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: 500px;
-        position: absolute;
-        top: 80px;
-        left: -100%;
-        opacity: 1;
-        transition: all 0.5s ease;
-
-        :active{
+       .navbar.active{
             background-color: #5F5F5F;
             left: 0;
             opacity: 1;
             transition: all 0.5s ease;
             z-index: 1;
-        }
-        
-    } 
+       }
+   }
+`;
+
+export const NavbarGroup = styled.ul`
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 10px;
+        list-style: none;
+        text-align: center;
+        width: 70vw;
+        justify-content: end;
+        margin-right: 2rem;
+
+
     
 `;
 
@@ -84,8 +84,8 @@ export const NavbarLink = styled.a`
     color: #fff;
     cursor: pointer;
     text-decoration: none;
-    padding: 0.5rem 1rem;  
-
+    padding:0.75rem;  
+    margin-left: 20px;
 
     &:hover{
         background-color: #6D6D6D;

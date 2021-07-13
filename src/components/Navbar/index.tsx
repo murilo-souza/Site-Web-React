@@ -1,6 +1,6 @@
 import React ,{useState} from 'react';
 import {BiMenu, BiX} from 'react-icons/bi'
-import { NavbarItems, NavbarLogo, NavbarLink, IconMenu, NavbarGroup} from './styles';
+import { NavbarItems, NavbarLogo, NavbarLink, IconMenu} from './styles';
 import './nav.css';
 
 export function Navbar(){
@@ -11,8 +11,9 @@ export function Navbar(){
     }
 
     return (
+        <>
         <NavbarItems>
-            <NavbarLogo>Adv Maurilio</NavbarLogo>
+            <NavbarLogo to="/">Adv Maurilio</NavbarLogo>
             <IconMenu onClick={handleClick}>
                 {
                     clicked ? 
@@ -23,13 +24,15 @@ export function Navbar(){
                 }
             </IconMenu>
                 
+
                 <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-                        <ul><NavbarLink>Home</NavbarLink></ul>
-                        <ul><NavbarLink>Serviços</NavbarLink></ul>
-                        <ul><NavbarLink>Sobre Nós</NavbarLink></ul>
-                        <ul><NavbarLink>Contato</NavbarLink></ul>
+                    <NavbarLink to="/" activeStyle>Home</NavbarLink>
+                    <NavbarLink to="/servicos" activeStyle>Serviços</NavbarLink>
+                    <NavbarLink to="/sobre" activeStyle>Sobre Nós</NavbarLink>
+                    <NavbarLink to="/contato" activeStyle>Contato</NavbarLink>
                 </ul>
             
         </NavbarItems>
+        </>
     );
 }

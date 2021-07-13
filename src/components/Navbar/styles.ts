@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {NavLink as Link} from 'react-router-dom'
 
 export const NavbarItems = styled.nav`
     background: linear-gradient(#424242, #5F5F5F, #424242);
@@ -80,12 +81,12 @@ export const NavbarGroup = styled.ul`
 `;
 
 
-export const NavbarLink = styled.a`
+export const NavbarLink = styled(Link)`
     color: #fff;
     cursor: pointer;
     text-decoration: none;
     padding:0.75rem;  
-    margin-left: 20px;
+    margin-left: 30px;
 
     &:hover{
         background-color: #6D6D6D;
@@ -94,14 +95,19 @@ export const NavbarLink = styled.a`
         @media screen and (max-width: 960px){
             background-color: #6D6D6D;
             border-radius: 0;
+           
         }
     }
 
     @media screen and (max-width: 960px){
         text-align: center;
-        padding: 2rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 0rem;
+        padding-left:0rem;
         width: 100%;
         display: table;
+        margin-left:0
     }
 
 `

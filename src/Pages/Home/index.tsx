@@ -1,11 +1,18 @@
 import React from 'react';
-
-import { Container } from './styled';
+import {WebServices} from '../../components/services'
+import { Section, Container } from './styles';
+import { WebCarousel } from '../../components/carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export function Home(){
   return (
-    <Container>
-        <h1>Home Page</h1>
-    </Container>
+      <Container>
+        <Section>
+          <WebCarousel/>
+        </Section>
+        <Section>
+          <WebServices/>
+        </Section>
+      </Container>
   );
 }

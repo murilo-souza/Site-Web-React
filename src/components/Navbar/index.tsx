@@ -12,27 +12,27 @@ export function Navbar(){
 
     return (
         <>
-        <NavbarItems>
-            <NavbarLogo to="/">Adv Maurilio</NavbarLogo>
-            <IconMenu onClick={handleClick}>
-                {
-                    clicked ? 
-                    <BiX style={{color:'white'}}/> 
-                    : 
-                    <BiMenu style={{color:'white'}}/>
+            <NavbarItems>
+                <NavbarLogo to="/">Adv Maurilio</NavbarLogo>
+                <IconMenu onClick={handleClick}>
+                    {
+                        clicked ? 
+                        <BiX style={{color:'white'}}/> 
+                        : 
+                        <BiMenu style={{color:'white'}}/>
+                        
+                    }
+                </IconMenu>
                     
-                }
-            </IconMenu>
-                
 
-                <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-                    <NavbarLink to="/" activeStyle>Home</NavbarLink>
-                    <NavbarLink to="/servicos" activeStyle>Serviços</NavbarLink>
-                    <NavbarLink to="/sobre" activeStyle>Sobre Nós</NavbarLink>
-                    <NavbarLink to="/contato" activeStyle>Contato</NavbarLink>
-                </ul>
-            
-        </NavbarItems>
+                    <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
+                        <NavbarLink to="/" activeStyle>Home</NavbarLink>
+                        <NavbarLink to="/servicos" activeStyle>Serviços</NavbarLink>
+                        <NavbarLink to="/sobre" activeStyle>Sobre Nós</NavbarLink>
+                        <NavbarLink to="/contato" activeStyle>Contato</NavbarLink>
+                    </ul>
+                
+            </NavbarItems>
         </>
     );
 }

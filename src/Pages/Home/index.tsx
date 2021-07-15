@@ -1,17 +1,25 @@
 import React from 'react';
-import {WebServices} from '../../components/services'
-import { Section, Container } from './styles';
-import { WebCarousel } from '../../components/carousel';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Section, Container } from './styles';
+import {BackgroundWeb} from '../../components/Background'
+
+import {WebServices} from '../../components/services'
+import { WebCarousel } from '../../components/carousel';
+import {AboutUs} from '../../components/AboutUs'
+
 
 export function Home(){
   return (
       <Container>
-        <Section>
-          <WebCarousel/>
-        </Section>
+        <WebCarousel/>
         <Section>
           <WebServices/>
+        </Section>
+        <Section>
+          <BackgroundWeb>
+            <AboutUs/>
+          </BackgroundWeb>
         </Section>
       </Container>
   );

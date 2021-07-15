@@ -7,7 +7,11 @@ import { CardWeb } from '../webCard';
 export function WebServices(){
   return (
     <Container>
-        <Title>Serviços</Title>
+        <Title>
+            Serviços
+            <hr />
+        </Title>
+        
         <CardWebGroup>
             <CardWeb
                 title="Trabalista"

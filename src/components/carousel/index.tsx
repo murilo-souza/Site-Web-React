@@ -6,7 +6,7 @@ import img3 from '../../assets/img3.jpg'
 
 export function WebCarousel(){
   return (
-    <Carousel style={{width:'100%'}}>
+    <Carousel style={{width:'100%', marginTop:'71px'}}>
         <Carousel.Item>
             <img
             className="d-block w-100"

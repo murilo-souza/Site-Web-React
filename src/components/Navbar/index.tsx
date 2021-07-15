@@ -1,38 +1,24 @@
-import React ,{useState} from 'react';
-import {BiMenu, BiX} from 'react-icons/bi'
-import { NavbarItems, NavbarLogo, NavbarLink, IconMenu} from './styles';
+import React from 'react';
+import { NavbarLink, NavbarLogo} from './styles';
 import './nav.css';
+import {Navbar, Container, Nav} from 'react-bootstrap'
 
-export function Navbar(){
-    const [clicked, setClicked] = useState(false);
-
-    function handleClick(){
-        setClicked(!clicked);
-    }
+export function NavbarWeb(){
 
     return (
-        <>
-            <NavbarItems>
-                <NavbarLogo to="/">Adv Maurilio</NavbarLogo>
-                <IconMenu onClick={handleClick}>
-                    {
-                        clicked ? 
-                        <BiX style={{color:'white'}}/> 
-                        : 
-                        <BiMenu style={{color:'white'}}/>
-                        
-                    }
-                </IconMenu>
-                    
-
-                    <ul className={clicked ? 'nav-menu active' : 'nav-menu'}>
-                        <NavbarLink to="/" activeStyle>Home</NavbarLink>
-                        <NavbarLink to="/servicos" activeStyle>Serviços</NavbarLink>
-                        <NavbarLink to="/sobre" activeStyle>Sobre Nós</NavbarLink>
-                        <NavbarLink to="/contato" activeStyle>Contato</NavbarLink>
-                    </ul>
-                
-            </NavbarItems>
-        </>
+        <Navbar variant="dark" expand="lg" fixed="top" className="NavbarStyled">
+                <Container>
+                    <Navbar.Brand><NavbarLogo to='/'>Adv Maurilio</NavbarLogo></Navbar.Brand>
+                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Nav>
+                        <Nav.Link><NavbarLink to='/'>Home</NavbarLink></Nav.Link>
+                        <Nav.Link><NavbarLink to='/Servicos'>Serviços</NavbarLink></Nav.Link>
+                        <Nav.Link><NavbarLink to='/Sobre'>Sobre Nós</NavbarLink></Nav.Link>
+                        <Nav.Link><NavbarLink to='/Contato'>Contato</NavbarLink></Nav.Link>
+                    </Nav>
+                    </Navbar.Collapse>
+                </Container>
+        </Navbar>
     );
 }

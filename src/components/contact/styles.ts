@@ -23,23 +23,33 @@ export const  Description = styled.div`
 `;
 
 export const Image = styled.div`
-    margin-right: 35px;
+    margin-right: 105px;
 `;
 
 export const Text = styled.p`
     font-size: 27px;
     text-align: left;
-    color: #fff;
     @media screen and (max-width: 960px){
         text-align: center;
     }
 `;
 
-export const Linha = styled.div`
+export const Row = styled.div`
     display: flex;
     flex-direction: row; 
     @media screen and (max-width: 960px){
         flex-direction: column;
     }
 
-`
+`;
+
+export const Column = styled.div`
+    display: flex;
+    flex-direction: column;
+`;
+
+export const DescriptionTitle = styled.h3`
+    font-size: 35px;
+    text-align: left;
+    
+`;

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Container, Title, Linha, Image, Text, Description} from './styles';
+import { Container, Title, Row, Image, Text, Description, Column, DescriptionTitle} from './styles';
 
 import img5 from '../../assets/retangulo-cinza.png'
 
@@ -11,14 +11,19 @@ export function Contact(){
             Contato
             <hr/>
         </Title>
-        <Linha>
+        <Row>
             <Image>
                 <img src={img5} alt="foto do predio" />
             </Image>
             <Description>
-                
+              <Column>
+                <Row>
+                  <hr />
+                  <DescriptionTitle>Endereço</DescriptionTitle>
+                </Row>
+              </Column>
             </Description>
-        </Linha>
+        </Row>
     </Container>
   );
 }

@@ -16,19 +16,19 @@ export function WebServices(){
         <CardWebGroup>
             <CardWeb
                 title="Trabalista"
-                text="Um advogado trabalista serve para que o seu cliente consiga seus direitos quando este for demitido"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
             <CardWeb
                 title="Trabalista"
-                text="Um advogado trabalista serve para que o seu cliente consiga seus direitos quando este for demitido"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
             <CardWeb
                 title="Trabalista"
-                text="Um advogado trabalista serve para que o seu cliente consiga seus direitos quando este for demitido"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
             <CardWeb
                 title="Trabalista"
-                text="Um advogado trabalista serve para que o seu cliente consiga seus direitos quando este for demitido"
+                text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
         </CardWebGroup>
     </Container>

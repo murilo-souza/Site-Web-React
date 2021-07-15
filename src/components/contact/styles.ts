@@ -12,18 +12,7 @@ export const Title = styled.h1`
     margin-bottom: 45px;
     text-align: center;
     font-size: 4.5rem;
-    color: #fff;
-`;
-
-export const Image = styled.div`
-    margin-right: 35px;
-    @media screen and (max-width: 960px){
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 30px;
-    }
-`;
+` 
 
 export const  Description = styled.div`
     @media screen and (max-width: 960px){
@@ -31,6 +20,10 @@ export const  Description = styled.div`
         align-items: center;
         justify-content: center;
     }
+`;
+
+export const Image = styled.div`
+    margin-right: 35px;
 `;
 
 export const Text = styled.p`

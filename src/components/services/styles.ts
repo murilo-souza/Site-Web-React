@@ -3,7 +3,8 @@ import styled from 'styled-components';
 export const Container = styled.div`
     align-items: center;
     justify-content: center;
-    width: 65%;
+    //width: 65%;
+    padding: 35px;
     margin-bottom:40px;
 `
 

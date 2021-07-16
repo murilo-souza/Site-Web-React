@@ -15,6 +15,8 @@ export const Title = styled.h1`
 ` 
 
 export const  Description = styled.div`
+    width: 50%;
+    padding-left: 100px;
     @media screen and (max-width: 960px){
         display: flex;
         align-items: center;
@@ -23,12 +25,15 @@ export const  Description = styled.div`
 `;
 
 export const Image = styled.div`
-    margin-right: 105px;
+    //margin-right: 70px;
+    margin-left: 70px;
+    
 `;
 
 export const Text = styled.p`
-    font-size: 27px;
+    font-size: 25px;
     text-align: left;
+    margin-bottom: 40px;
     @media screen and (max-width: 960px){
         text-align: center;
     }

@@ -6,7 +6,6 @@ export function Footer(){
   return (
     <Container>
         <Title>₢ xxxxx xxxxxxx</Title>
-        
     </Container>
   );
 }

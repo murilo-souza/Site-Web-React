@@ -24,12 +24,11 @@ export const NavbarLogo = styled(Link)`
 
 export const NavbarLink = styled(Link)`
     color: #fff;
-    cursor: pointer;
     text-decoration: none;
     padding:0.75rem;
     margin-left: 30px;
     margin-top: 15px;
-
+    cursor: pointer;
     &:hover{
         background-color: #6D6D6D;
         border-Radius: 20px;
@@ -38,6 +37,39 @@ export const NavbarLink = styled(Link)`
         color: #fff;
         @media screen and (max-width: 960px){
             background-color: #6D6D6D;
+            border-radius: 0;
+           
+        }
+    }
+
+    @media screen and (max-width: 960px){
+        text-align: center;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        padding-right: 0rem;
+        padding-left:0rem;
+        width: 100%;
+        display: table;
+        margin-left:0
+    }
+
+`;
+
+export const CommunicationLink = styled.a`
+    color: #fff;
+    text-decoration: none;
+    padding:0.75rem;
+    margin-left: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    &:hover{
+        background-color:#00bb2d ;
+        border-Radius: 20px;
+        transition: all 0.2s ease-out;
+        text-decoration: none;
+        color: #fff;
+        @media screen and (max-width: 960px){
+            background-color: #00bb2d ;
             border-radius: 0;
            
         }

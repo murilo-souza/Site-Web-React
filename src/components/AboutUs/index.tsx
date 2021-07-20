@@ -13,7 +13,7 @@ export function AboutUs(){
         </Title>
         <Linha>
           <Image>
-            <img src={Img4}/>
+            <img src={Img4} alt="Foto sua"/>
           </Image>
           <Description>
             <Text>

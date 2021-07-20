@@ -3,13 +3,12 @@ import styled from 'styled-components';
 export const Container = styled.div`
     align-items: center;
     justify-content: center;
-    margin-bottom:40px;
     padding: 35px;
 `;
 
 export const Title = styled.h1`
-    margin-top: 25px;
-    margin-bottom: 45px;
+    padding-top: 20px;
+    padding-bottom: 70px;
     text-align: center;
     font-size: 4.5rem;
 ` 

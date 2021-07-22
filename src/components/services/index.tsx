@@ -15,19 +15,19 @@ export function WebServices(){
         
         <CardWebGroup>
             <CardWeb
-                title="xxxxxxxxxx"
+                title="Serviço 1"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
             <CardWeb
-                title="xxxxxxxxxx"
+                title="Serviço 2"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
             <CardWeb
-                title="xxxxxxxxxx"
+                title="Serviço 3"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
             <CardWeb
-                title="xxxxxxxxxx"
+                title="Serviço 4"
                 text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus volutpat mi, ac blandit ex luctus quis. Proin nisl arcu, placerat ut velit eget, vehicula tincidunt neque."
             />
         </CardWebGroup>

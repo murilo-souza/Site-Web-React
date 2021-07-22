@@ -58,10 +58,11 @@ export const NavbarLink = styled(Link)`
 export const CommunicationLink = styled.a`
     color: #fff;
     text-decoration: none;
-    padding:0.75rem;
     margin-left: 30px;
     margin-top: 15px;
     cursor: pointer;
+    padding:0.75rem;
+
     &:hover{
         background-color:#00bb2d ;
         border-Radius: 20px;
@@ -86,4 +87,6 @@ export const CommunicationLink = styled.a`
         margin-left:0
     }
 
-`
+`;
+
+

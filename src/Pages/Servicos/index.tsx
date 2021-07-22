@@ -11,28 +11,28 @@ export function Servicos(){
         <Left
           Img={quadrado}
           Alt='Quadrado Cinza'
-          title='xxxxxxxxxx'
+          title='Serviço 1'
           text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex in illum modi itaque. Vel hic aliquam quasi earum cum repellat in velit ab cumque! Quod molestias voluptates numquam placeat.'
         />
         <hr/>
         <Left
           Img={quadrado}
           Alt='Quadrado Cinza'
-          title='xxxxxxxxxx'
+          title='Serviço 2'
           text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex in illum modi itaque. Vel hic aliquam quasi earum cum repellat in velit ab cumque! Quod molestias voluptates numquam placeat.'
         />
         <hr/>
         <Left
           Img={quadrado}
           Alt='Quadrado Cinza'
-          title='xxxxxxxxxx'
+          title='Serviço 3'
           text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex in illum modi itaque. Vel hic aliquam quasi earum cum repellat in velit ab cumque! Quod molestias voluptates numquam placeat.'
         />
         <hr/>
         <Left
           Img={quadrado}
           Alt='Quadrado Cinza'
-          title='xxxxxxxxxx'
+          title='Serviço 4'
           text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ex in illum modi itaque. Vel hic aliquam quasi earum cum repellat in velit ab cumque! Quod molestias voluptates numquam placeat.'
         />
     </Container>

@@ -8,13 +8,13 @@ export function NavbarWeb(){
     return (
         <Navbar variant="dark" expand="lg" fixed="top" className="NavbarStyled">
                 <Container>
-                    <Navbar.Brand><NavbarLogo to='/'>Adv Maurilio</NavbarLogo></Navbar.Brand>
+                    <Navbar.Brand><NavbarLogo to='/'>Logo</NavbarLogo></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                     <Nav>
                         <Nav.Link><NavbarLink to='/'>Home</NavbarLink></Nav.Link>
                         <Nav.Link><NavbarLink to='/Servicos'>Serviços</NavbarLink></Nav.Link>
-                        <Nav.Link><NavbarLink to='/Sobre'>Sobre Nós</NavbarLink></Nav.Link>
+                        <Nav.Link><NavbarLink to='/Sobre-Nos'>Sobre Nós</NavbarLink></Nav.Link>
                         <Nav.Link href="#"><CommunicationLink>Fale Agora</CommunicationLink></Nav.Link>
                     </Nav>
                     </Navbar.Collapse>

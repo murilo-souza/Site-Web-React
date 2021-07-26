@@ -21,6 +21,9 @@ export function Sobre(){
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ad a voluptatem, in ea beatae placeat commodi architecto omnis odit quas ratione necessitatibus assumenda error nostrum eius ab. Sed, dicta?
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur rerum, perspiciatis corporis dolor excepturi praesentium reiciendis voluptas, ad in esse id! Provident minus eius beatae. Vero tempore voluptas repellat quis?
         </Text>
+
+
+        
       </Section>
     </Container>
   );
